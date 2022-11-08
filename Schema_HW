@@ -1,0 +1,32 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+      "$id":  "https://raw.githubusercontent.com/ssalamehh/2022Fall-BIOC-6223/Shatha-HW-11/8/JSONHW", 
+"type": "object",
+  "required": ["Cardiac_Homo_Genes"],
+  "properties": {
+     "Cardiac_Homo_Genes":{
+    "type": "array",
+    "description": "Contains a list of genes related to human cardiac function",
+      "items": {
+        "type": "object",
+          "required": ["name", "bplength", "accession"
+             ],
+    "properties": {
+       "name": {
+         "type": "string",
+           "description": "Gene name abbreviation"
+       },
+       "bplength": {
+         "type": "number",
+         "description": "Gene length in base pairs"
+       },
+       "accession": {
+         "type": "string",
+           "description": "Gene accession number"
+       }
+       }
+     }
+  }
+ }
+}
+
