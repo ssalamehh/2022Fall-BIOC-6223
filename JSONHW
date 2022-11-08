@@ -1,0 +1,15 @@
+{
+"Cardiac_Homo_Genes": [{
+"name": "SLN",
+"bplength": 2904,
+"accession": "AH005642"
+},
+{"name": "MICA",
+"bplength": 822,
+"accession": "AB015600"
+},
+{"name": "TNNI3",
+"bplength": 843,
+"accession": "NM_000363"
+}
+]}
